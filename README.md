@@ -93,3 +93,19 @@ Integration with Firebase services:
 - Optimizations for accessibility tools, including screen readers.
 
 ---
+## 📂 Project Structure
+
+The application's codebase is strictly organized following the MVVM architecture, ensuring a clean separation of concerns:
+
+```text
+src/main/java/pt/isec/amov/safetysec/
+├── model/          # Data classes representing Firestore documents (SafetyUser, SafetyRule, SafetyAlert, etc.)
+├── repository/     # Data access layer managing Firebase operations (AuthRepository, DashboardRepository, etc.)
+├── services/       # Android Foreground Services (SafetyMonitoringService, MonitorService)
+├── ui/             # Jetpack Compose UI presentation layer
+│   ├── components/ # Reusable UI elements (e.g., LanguageSelector)
+│   ├── screens/    # Separated modules for application screens (account, alert, dashboard/monitor, dashboard/protected)
+│   └── viewmodels/ # State management bridging the UI and the repositories
+├── utils/          # Helper functions and utilities (PermissionUtils, VideoManager, AuthErrorHandler, etc.)
+└── MainActivity.kt # The single Activity and entry point of the application
+
