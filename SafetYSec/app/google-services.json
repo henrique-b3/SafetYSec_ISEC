@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042984892602",
+    "project_id": "safetysec-87758",
+    "storage_bucket": "safetysec-87758.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042984892602:android:9f92aecb8af4ad75d36a83",
+        "android_client_info": {
+          "package_name": "pt.isec.amov.safetysec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP5gRZyAhSyWmqX7drlWKyfPDHMlwDiFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

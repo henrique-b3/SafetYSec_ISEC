@@ -1,0 +1,301 @@
+<resources>
+
+    <string name="app_name">SafetYSec</string>
+
+    <string name="logintxt">Login</string>
+    <string name="login">Iniciar sessão</string>
+    <string name="register">Registar</string>
+    <string name="name">Nome</string>
+    <string name="full_name">Nome completo</string>
+    <string name="email">Email</string>
+    <string name="password">Palavra-passe</string>
+    <string name="confirm_password">Confirmar palavra-passe</string>
+    <string name="create_account">Criar conta</string>
+    <string name="create_new_account">Criar nova conta</string>
+    <string name="already_have_account">Já tem conta? Inicie sessão.</string>
+    <string name="have_account_signin">Já tem conta? Inicie sessão</string>
+    <string name="remember_me">Lembrar-me</string>
+    <string name="forgot_password">Esqueceu-se da palavra-passe</string>
+    <string name="terms">Ao continuar, aceita os Termos e\nPolítica de Privacidade</string>
+
+    <string name="personal_data_header">Dados Pessoais</string>>
+    <string name="change_password_header">Alterar Palavra-passe</string>
+    <string name="label_current_password">Palavra-passe Atual</string>
+    <string name="label_new_password">Nova Palavra-passe</string>
+    <string name="label_confirm_new_password">Confirmar Nova Palavra-passe</string>
+
+
+    <string name="Im">Sou:</string>
+    <string name="monitor_role">Monitor</string>
+    <string name="protected_role">Protegido</string>
+    <string name="welcome">Bem-vindo,</string>
+    <string name="default_user">Utilizador</string>
+    <string name="sign_out">Terminar sessão</string>
+
+    <string name="choose_mode">Escolha o seu perfil</string>
+    <string name="mode_monitor">Sou Monitor</string>
+    <string name="monitor_subtitle">Quero supervisionar familiares ou amigos.</string>
+    <string name="mode_protected">Sou Protegido</string>
+    <string name="protected_subtitle">Quero ser monitorizado e ter um botão SOS.</string>
+
+    <string name="monitor_title">Painel de Monitorização</string>
+    <string name="summary_title">Resumo</string>
+    <string name="total_protected">Total de Protegidos: %1$d</string>
+    <string name="my_protected_users">Os Meus Utilizadores Protegidos</string>
+    <string name="recent_alerts">Alertas Recentes</string>
+    <string name="total_protected_stat">Protegidos</string>
+    <string name="active_alerts_stat">Total de Alertas</string>
+    <string name="protected_title">Painel do Protegido</string>
+
+    <string name="back">Voltar</string>
+    <string name="add">Adicionar</string>
+    <string name="close">Fechar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="save">Guardar</string>
+    <string name="save_changes">Guardar alterações</string>
+    <string name="send">Enviar</string>
+    <string name="remove">Remover</string>
+
+    <string name="add_protected_title">Adicionar Protegido</string>
+    <string name="enter_code_monitor_instruction">Introduza o código de 6 caracteres:</string>
+    <string name="enter_code_instruction">Introduza o código fornecido pelo utilizador:</string>
+    <string name="code_hint">Código (Ex: X9J2K1)</string>
+    <string name="associate_button">Associar</string>
+    <string name="association_code_label">Código de Associação</string>
+    <string name="associate_monitor">Associar Monitor</string>
+    <string name="tap_to_generate">Toque para gerar código</string>
+    <string name="your_code">O seu código</string>
+    <string name="tap_to_copy">Toque para copiar</string>
+    <string name="share_code_instruction">Partilhe este código com o seu Monitor para autorizar a monitorização.</string>
+    <string name="valid_for_5_min">Válido por 5 minutos</string>
+    <string name="generate_code">Gerar código</string>
+    <string name="generate_code_btn">Gerar código</string>
+
+    <string name="status_safe">Seguro</string>
+    <string name="status_in_alert">Em alerta</string>
+    <string name="status_danger">ESTADO: PERIGO / ALERTA</string>
+    <string name="no_monitoring_active">Sem utilizadores protegidos associados.\nUse o botão abaixo.</string>
+
+    <string name="sos">SOS</string>
+    <string name="press">Premir</string>
+    <string name="tap_sos">Toque para pedir AJUDA</string>
+    <string name="alert_sending_desc">A enviar alerta em…</string>
+    <string name="seconds_to_cancel">segundos para cancelar</string>
+    <string name="alert_history">Histórico de Alertas</string>
+    <string name="alert_sent_msg">ALERTA ENVIADO!</string>
+    <string name="cancel_button_caps">CANCELAR AGORA</string>
+    <string name="cancel_alert_pin_btn">CANCELAR ALERTA (PIN)</string>
+    <string name="cancel_alert_title">Desativar Alerta</string>
+    <string name="cancel_alert_instruction">Introduza o seu PIN para cancelar:</string>
+
+    <string name="sos_request_title">PEDIDO SOS!</string>
+    <string name="fall_detected_title">QUEDA DETETADA!</string>
+    <string name="sending_in">A enviar em…</string>
+    <string name="recording_status">Gravação: %1$ds / 30s</string>
+    <string name="video_recording_title">Gravação do Incidente</string>
+
+    <string name="my_monitors_title">Os Meus Monitores</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="edit_profile_title">Editar Perfil</string>
+    <string name="email_readonly">Email (apenas leitura)</string>
+    <string name="profile_validation_error">Preencha o nome e um PIN de 4 dígitos</string>
+
+    <string name="cancellation_code_settings">Código de Cancelamento</string>
+    <string name="cancellation_code_label">Código de Cancelamento (PIN)</string>
+    <string name="cancellation_hint">Usado para cancelar alertas SOS</string>
+
+    <string name="manage_rules_schedule">Regras e Horários</string>
+    <string name="manage_rules">Gerir Regras</string>
+    <string name="manage_security_rules">Gerir Regras de Segurança</string>
+    <string name="no_rules_active">Sem regras ativas.\nToque em + para adicionar.</string>
+
+    <string name="new_rule_title">Nova Regra</string>
+    <string name="edit_rule_title">Editar Regra</string>
+
+    <string name="monitoring_type">Tipo de monitorização:</string>
+    <string name="rule_type_label">Tipo de regra: %1$s</string>
+    <string name="speed_limit_label">Limite de velocidade (km/h)</string>
+    <string name="max_idle_time_label">Tempo máximo parado (minutos)</string>
+    <string name="radius_label">Raio (metros)</string>
+
+    <string name="geofence_desc">Define uma zona segura de %1$sm em redor da posição atual.</string>
+    <string name="auto_sensor_desc">Esta regra utiliza automaticamente os sensores do telemóvel.</string>
+
+    <string name="time_windows">Janelas de Tempo</string>
+    <string name="start_hour">Início (H)</string>
+    <string name="end_hour">Fim (H)</string>
+    <string name="edit_schedule">Editar horário: %1$s</string>
+
+    <string name="limit_prefix">Lim:</string>
+    <string name="time_prefix">Tempo:</string>
+    <string name="radius_prefix">Raio:</string>
+    <string name="center_location">Centro (Localização):</string>
+    <string name="lat_label">Lat</string>
+    <string name="lon_label">Lon</string>
+    <string name="active_days">Dias ativos:</string>
+
+    <string name="user_alerts_title">Alertas de %1$s</string>
+    <string name="no_active_alerts_user">Sem alertas ativos para este utilizador.</string>
+    <string name="no_alert_history">Sem histórico de alertas.</string>
+    <string name="date_label">Data: %1$s</string>
+    <string name="location_label">Localização: %1$s</string>
+    <string name="now_label">Agora</string>
+
+    <string name="remove_protected_title">Remover Protegido</string>
+    <string name="remove_protected_confirm">Deseja parar de monitorizar %1$s?</string>
+
+    <string name="no_monitors_found">Ninguém o está a monitorizar.</string>
+    <string name="people_access_location">Pessoas com acesso à sua localização:</string>
+    <string name="no_monitors_alert">Sem monitores para alertar!</string>
+
+    <string name="firebase_app_title">Aplicação Firebase</string>
+    <string name="user_info">Utilizador: %1$s</string>
+    <string name="nr_games">Nº de Jogos: %1$d</string>
+    <string name="top_score">Pontuação Máxima: %1$d</string>
+
+    <string name="upload_to_storage">Enviar para Storage</string>
+    <string name="stop_observer">Parar observador</string>
+    <string name="start_observer">Iniciar observador</string>
+    <string name="remove_data">Remover dados</string>
+    <string name="update_data">Atualizar dados</string>
+    <string name="add_data">Adicionar dados</string>
+
+    <string name="default_web_client_id">1042984892602-t2k65rgrfgu3l3snrc7gc1ctj5bq61va.apps.googleusercontent.com</string>
+
+    <string name="error_caps">ERRO</string>
+    <string name="error_invalid_email">Formato de email inválido.</string>
+    <string name="error_wrong_password">Palavra-passe incorreta.</string>
+    <string name="error_user_not_found">Conta de utilizador não encontrada.</string>
+    <string name="error_email_already_in_use">Este email já está registado.</string>
+    <string name="error_weak_password">A palavra-passe deve ter pelo menos 6 caracteres.</string>
+    <string name="error_network">Erro de rede. Verifique a ligação.</string>
+    <string name="error_unknown">Ocorreu um erro desconhecido.</string>
+    <string name="error_fill_all_fields">Preencha todos os campos.</string>
+    <string name="error_passwords_do_not_match">As palavras-passe não coincidem.</string>
+    <string name="error_pin_length">O PIN deve ter 4 dígitos.</string>
+    <string name="error_code_length">O código deve ter 6 caracteres.</string>
+    <string name="error_location_permissions">Permissão de localização necessária</string>
+    <string name="error_missing_current_password">Por favor, introduza a palavra-passe atual.</string>
+    <string name="error_new_password_same_as_old">A nova palavra-passe deve ser diferente da atual.</string>
+    <string name="error_confirm_password_mismatch">A confirmação da palavra-passe não coincide.</string>
+    <string name="error_password_too_short">A nova palavra-passe é demasiado curta (mín. 6 caracteres).</string>
+    <string name="error_profile_update_prefix">Erro ao atualizar perfil:</string>
+    <string name="error_password_update_prefix">Erro password:</string>
+    <string name="error_login_required">Tente fazer login novamente.</string>
+
+    <string name="geofencing_limited">Geofencing limitado sem localização em segundo plano.</string>
+    <string name="location_obtained">Localização atual obtida!</string>
+    <string name="location_unavailable">Localização indisponível. Ative o GPS.</string>
+    <string name="maps_error">Google Maps não instalado.</string>
+    <string name="loc_bg_active">Localização em segundo plano ativa!</string>
+
+    <string name="msg_account_created">Conta criada com sucesso!</string>
+    <string name="msg_saved_success">Guardado com sucesso!</string>
+    <string name="msg_monitor_removed">Monitor removido.</string>
+    <string name="msg_removed">Removido.</string>
+    <string name="msg_associated">Associado!</string>
+    <string name="msg_copied">Copiado!</string>
+    <string name="msg_video_sent">Vídeo enviado e alerta concluído!</string>
+    <string name="msg_alert_cancelled">Alerta cancelado.</string>
+    <string name="msg_pin_incorrect">PIN incorreto!</string>
+
+    <string name="recover_access">Recuperar acesso</string>
+    <string name="recover_instruction">Introduza o seu email para receber um link de reposição.</string>
+
+    <string name="notification_channel_name">Notificações Push SafetySec</string>
+    <string name="notification_channel_desc">Alertas críticos via FCM</string>
+
+    <string name="default_alert_title">Alerta de Segurança</string>
+    <string name="default_alert_body">Novo alerta recebido!</string>
+
+    <string name="monitor_service_notification_title">Monitorização Ativa</string>
+    <string name="monitor_service_notification_text">A aguardar alertas…</string>
+
+    <string name="monitor_channel_name">Notificações de Monitorização</string>
+    <string name="monitor_channel_desc">Alertas de segurança recebidos</string>
+
+    <string name="alert_type_fall">Queda detetada</string>
+    <string name="alert_type_accident">Acidente detetado</string>
+    <string name="alert_type_panic">Pedido SOS</string>
+    <string name="alert_type_inactivity">Inatividade excessiva</string>
+    <string name="alert_type_speed">Excesso de velocidade detetado</string>
+    <string name="alert_type_geofencing">Saiu da zona segura</string>
+    <string name="alert_type_generic">Alerta de Segurança</string>
+
+    <string name="desc_sos_icon">Ícone de Alerta SOS</string>
+    <string name="desc_warning_icon">Símbolo de aviso de perigo</string>
+    <string name="desc_add_protected">Adicionar novo utilizador protegido</string>
+    <string name="desc_person_icon">Ícone de perfil do utilizador</string>
+    <string name="desc_view_alerts">Ver lista de alertas</string>
+    <string name="desc_manage_rules">Gerir regras de segurança</string>
+    <string name="desc_remove_user">Remover este utilizador</string>
+    <string name="desc_play_video">Reproduzir vídeo da ocorrência</string>
+    <string name="desc_resolve_alert">Marcar alerta como resolvido</string>
+    <string name="desc_camera_preview">Pré-visualização da câmara em tempo real</string>
+    <string name="desc_back_icon">Voltar ao ecrã anterior</string>
+
+    <string name="desc_logo">Logótipo da aplicação SafetySec</string>
+    <string name="desc_show_password">Mostrar palavra-passe</string>
+    <string name="desc_hide_password">Ocultar palavra-passe</string>
+    <string name="desc_logout_icon">Terminar sessão</string>
+    <string name="desc_monitor_mode_icon">Ícone do modo Monitor</string>
+    <string name="desc_protected_mode_icon">Ícone do modo Protegido</string>
+    <string name="desc_settings_icon">Ícone de definições</string>
+    <string name="desc_edit_icon">Editar</string>
+    <string name="desc_location_icon">Obter localização atual</string>
+    <string name="desc_map_icon">Abrir no Google Maps</string>
+    <string name="desc_copy_icon">Copiar para a área de transferência</string>
+    <string name="desc_error_icon">Ícone de erro</string>
+    <string name="desc_close_icon">Fechar</string>
+    <string name="desc_lang_pt">Mudar idioma para Português</string>
+    <string name="desc_lang_en">Change language to English</string>
+    <string name="desc_rules_icon">Configurar regras</string>
+
+    <string name="mfa_title">Verificação de Segurança</string>
+    <string name="mfa_instruction">Foi enviado um código para a consola (Logcat) para o email:</string>
+    <string name="mfa_code_label">Código de 5 dígitos</string>
+    <string name="mfa_validate_btn">Validar</string>
+    <string name="mfa_invalid_code">Código incorreto</string>
+
+    <string name="hint_code_example">Ex: X9J2K1</string>
+    <string name="label_type">Tipo: %1$s</string>
+    <string name="label_time">Hora: %1$s</string>
+
+    <string name="desc_add_icon">Adicionar</string>
+    <string name="desc_video_icon">Reproduzir Vídeo</string>
+    <string name="desc_resolve_icon">Resolver Alerta</string>
+    <string name="desc_alerts_icon">Ver Alertas</string>
+    <string name="desc_remove_icon">Remover</string>
+
+    <string name="popup_alert_title">ALERTA CRÍTICO!</string>
+    <string name="btn_check_alert">Ver Detalhes</string>
+    <string name="btn_ignore_alert">Ignorar</string>
+    <string name="desc_popup_warning">Ícone de aviso crítico</string>
+
+    <string name="error_code_invalid">Código inválido.</string>
+    <string name="error_code_expired">O código expirou (limite de 5 min).</string>
+    <string name="error_code_data">Erro de dados no código.</string>
+    <string name="error_self_monitor">Não pode monitorizar-se a si próprio.</string>
+    <string name="error_uid_null">Erro interno: UID inválido.</string>
+    <string name="error_user_not_found_db">Utilizador não encontrado na base de dados.</string>
+    <string name="error_user_not_logged">Sessão expirada.</string>
+
+    <string name="success_association">Associação criada com sucesso!</string>
+    <string name="success_association_removed">Associação removida.</string>
+    <string name="success_rule_saved">Regra guardada.</string>
+    <string name="success_rule_deleted">Regra removida.</string>
+    <string name="success_email_sent">Email enviado.</string>
+    <string name="success_updated">Perfil atualizado.</string>
+
+    <string name="config_required_title">Configuração Necessária</string>
+    <string name="config_required_desc">Para que os alertas funcionem corretamente, o seu telemóvel requer permissões especiais.</string>
+    <string name="btn_resolve_permissions">Resolver Permissões</string>
+
+    <string name="toast_enable_overlay">Ative \'Permitir sobreposição a outras apps\'</string>
+    <string name="toast_xiaomi_instruction">Xiaomi: Ative \'Exibir janelas pop-up\' em Outras Permissões</string>
+    <string name="toast_samsung_instruction">Samsung: Defina a bateria como \'Não Restringida\'</string>
+    <string name="toast_check_settings">Verifique Permissões e Bateria nas definições.</string>
+    <string name="error_prefix">Erro: %1$s</string>
+
+</resources>

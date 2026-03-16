@@ -1,0 +1,300 @@
+<resources>
+
+    <string name="app_name">SafetYSec</string>
+
+    <string name="logintxt">Login</string>
+    <string name="login">Sign in</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="already_have_account">Already have an account? Log in.</string>
+    <string name="have_account_signin">Already have an account? Sign In</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="terms">By continuing, you accept the Terms and\nPrivacy Policy</string>
+
+    <string name="personal_data_header">Personal Data</string>
+    <string name="change_password_header">Change Password</string>
+    <string name="label_current_password">Current Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="label_confirm_new_password">Confirm New Password</string>
+
+    <string name="Im">Im:</string>
+    <string name="monitor_role">Monitor</string>
+    <string name="protected_role">Protected</string>
+    <string name="welcome">Welcome,</string>
+    <string name="default_user">User</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="choose_mode">Choose your profile</string>
+    <string name="mode_monitor">I am a Monitor</string>
+    <string name="monitor_subtitle">I want to supervise family or friends.</string>
+    <string name="mode_protected">I am Protected</string>
+    <string name="protected_subtitle">I want to be monitored and have an SOS button.</string>
+
+    <string name="monitor_title">Monitoring Dashboard</string>
+    <string name="summary_title">Summary</string>
+    <string name="total_protected">Total Protected: %1$d</string>
+    <string name="my_protected_users">My Protected Users</string>
+    <string name="recent_alerts">Recent Alerts</string>
+    <string name="total_protected_stat">Protected</string>
+    <string name="active_alerts_stat">Total Alerts</string>
+    <string name="protected_title">Protected Dashboard</string>
+
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="send">Send</string>
+    <string name="remove">Remove</string>
+
+    <string name="add_protected_title">Add Protected</string>
+    <string name="enter_code_monitor_instruction">Enter the 6-character code:</string>
+    <string name="enter_code_instruction">Enter the code provided by the user:</string>
+    <string name="code_hint">Code (Ex: X9J2K1)</string>
+    <string name="associate_button">Associate</string>
+    <string name="association_code_label">Association Code</string>
+    <string name="associate_monitor">Associate Monitor</string>
+    <string name="tap_to_generate">Tap to generate code</string>
+    <string name="your_code">Your Code</string>
+    <string name="tap_to_copy">Tap to copy</string>
+    <string name="share_code_instruction">Share this code with your Monitor to authorize tracking.</string>
+    <string name="valid_for_5_min">Valid for 5 minutes</string>
+    <string name="generate_code">Generate Code</string>
+    <string name="generate_code_btn">Generate Code</string>
+
+    <string name="status_safe">Safe</string>
+    <string name="status_in_alert">In Alert</string>
+    <string name="status_danger">STATUS: DANGER / ALERT</string>
+    <string name="no_monitoring_active">No protected users associated.\nUse the button below.</string>
+
+    <string name="sos">SOS</string>
+    <string name="press">Press</string>
+    <string name="tap_sos">Tap to request HELP</string>
+    <string name="alert_sending_desc">Sending alert in…</string>
+    <string name="seconds_to_cancel">seconds to cancel</string>
+    <string name="alert_history">Alert History</string>
+    <string name="alert_sent_msg">ALERT SENT!</string>
+    <string name="cancel_button_caps">CANCEL NOW</string>
+    <string name="cancel_alert_pin_btn">CANCEL ALERT (PIN)</string>
+    <string name="cancel_alert_title">Disable Alert</string>
+    <string name="cancel_alert_instruction">Enter your PIN to cancel:</string>
+
+    <string name="sos_request_title">SOS REQUEST!</string>
+    <string name="fall_detected_title">FALL DETECTED!</string>
+    <string name="sending_in">Sending in…</string>
+    <string name="recording_status">Recording: %1$ds / 30s</string>
+    <string name="video_recording_title">Incident Recording</string>
+
+    <string name="my_monitors_title">My Monitors</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="email_readonly">Email (Read-only)</string>
+    <string name="profile_validation_error">Fill in name and a 4-digit PIN</string>
+
+    <string name="cancellation_code_settings">Cancellation Code</string>
+    <string name="cancellation_code_label">Cancellation Code (PIN)</string>
+    <string name="cancellation_hint">Used to cancel SOS alerts</string>
+
+    <string name="manage_rules_schedule">Rules and Schedules</string>
+    <string name="manage_rules">Manage Rules</string>
+    <string name="manage_security_rules">Manage Security Rules</string>
+    <string name="no_rules_active">No active rules.\nTap + to add.</string>
+
+    <string name="new_rule_title">New Rule</string>
+    <string name="edit_rule_title">Edit Rule</string>
+
+    <string name="monitoring_type">Monitoring Type:</string>
+    <string name="rule_type_label">Rule Type: %1$s</string>
+    <string name="speed_limit_label">Speed Limit (km/h)</string>
+    <string name="max_idle_time_label">Max Idle Time (minutes)</string>
+    <string name="radius_label">Radius (meters)</string>
+
+    <string name="geofence_desc">Defines a safe zone of %1$sm around current position.</string>
+    <string name="auto_sensor_desc">This rule uses phone sensors automatically.</string>
+
+    <string name="time_windows">Time Windows</string>
+    <string name="start_hour">Start (H)</string>
+    <string name="end_hour">End (H)</string>
+    <string name="edit_schedule">Edit Schedule: %1$s</string>
+
+    <string name="limit_prefix">Lim:</string>
+    <string name="time_prefix">Time:</string>
+    <string name="radius_prefix">Radius:</string>
+    <string name="center_location">Center (Location):</string>
+    <string name="lat_label">Lat</string>
+    <string name="lon_label">Lon</string>
+    <string name="active_days">Active days:</string>
+
+    <string name="user_alerts_title">Alerts for %1$s</string>
+    <string name="no_active_alerts_user">No active alerts for this user.</string>
+    <string name="no_alert_history">No alert history.</string>
+    <string name="date_label">Date: %1$s</string>
+    <string name="location_label">Location: %1$s</string>
+    <string name="now_label">Now</string>
+
+    <string name="remove_protected_title">Remove Protected</string>
+    <string name="remove_protected_confirm">Do you want to stop monitoring %1$s?</string>
+
+    <string name="no_monitors_found">No one is monitoring you.</string>
+    <string name="people_access_location">People with access to your location:</string>
+    <string name="no_monitors_alert">No monitors to alert!</string>
+
+    <string name="firebase_app_title">Firebase App</string>
+    <string name="user_info">User: %1$s</string>
+    <string name="nr_games">Nr Games: %1$d</string>
+    <string name="top_score">Top Score: %1$d</string>
+
+    <string name="upload_to_storage">Upload to Storage</string>
+    <string name="stop_observer">Stop Observer</string>
+    <string name="start_observer">Start observer</string>
+    <string name="remove_data">Remove data</string>
+    <string name="update_data">Update data</string>
+    <string name="add_data">Add Data</string>
+
+    <string name="default_web_client_id">1042984892602-t2k65rgrfgu3l3snrc7gc1ctj5bq61va.apps.googleusercontent.com</string>
+
+    <string name="error_caps">ERROR</string>
+    <string name="error_invalid_email">Invalid email format.</string>
+    <string name="error_wrong_password">Incorrect password.</string>
+    <string name="error_user_not_found">User account not found.</string>
+    <string name="error_email_already_in_use">This email is already registered.</string>
+    <string name="error_weak_password">Password should be at least 6 characters.</string>
+    <string name="error_network">Network error. Check your connection.</string>
+    <string name="error_unknown">An unknown error occurred.</string>
+    <string name="error_fill_all_fields">Please fill in all fields.</string>
+    <string name="error_passwords_do_not_match">Passwords do not match.</string>
+    <string name="error_pin_length">PIN must be 4 digits.</string>
+    <string name="error_code_length">Code must be 6 characters.</string>
+    <string name="error_location_permissions">Location permission required</string>
+    <string name="error_missing_current_password">Please enter your current password.</string>
+    <string name="error_new_password_same_as_old">The new password must be different from the current one.</string>
+    <string name="error_confirm_password_mismatch">Password confirmation does not match.</string>
+    <string name="error_password_too_short">The new password is too short (minimum 6 characters).</string>
+    <string name="error_profile_update_prefix">Error updating profile:</string>
+    <string name="error_password_update_prefix">Password error:</string>
+    <string name="error_login_required">Please try logging in again.</string>
+
+    <string name="geofencing_limited">Geofencing limited without background location.</string>
+    <string name="location_obtained">Current location obtained!</string>
+    <string name="location_unavailable">Location unavailable. Turn on GPS.</string>
+    <string name="maps_error">Google Maps not installed.</string>
+    <string name="loc_bg_active">Background location active!</string>
+
+    <string name="msg_account_created">Account created successfully!</string>
+    <string name="msg_saved_success">Saved successfully!</string>
+    <string name="msg_monitor_removed">Monitor removed.</string>
+    <string name="msg_removed">Removed.</string>
+    <string name="msg_associated">Associated!</string>
+    <string name="msg_copied">Copied!</string>
+    <string name="msg_video_sent">Video sent and alert concluded!</string>
+    <string name="msg_alert_cancelled">Alert Cancelled.</string>
+    <string name="msg_pin_incorrect">Incorrect PIN!</string>
+
+    <string name="recover_access">Recover Access</string>
+    <string name="recover_instruction">Enter your email to receive a reset link.</string>
+
+    <string name="notification_channel_name">SafetySec Push Notifications</string>
+    <string name="notification_channel_desc">Critical alerts via FCM</string>
+
+    <string name="default_alert_title">Security Alert</string>
+    <string name="default_alert_body">New alert received!</string>
+
+    <string name="monitor_service_notification_title">Monitoring Active</string>
+    <string name="monitor_service_notification_text">Waiting for alerts…</string>
+
+    <string name="monitor_channel_name">Monitor Notifications</string>
+    <string name="monitor_channel_desc">Security alerts received</string>
+
+    <string name="alert_type_fall">Fall detected</string>
+    <string name="alert_type_accident">Accident detected</string>
+    <string name="alert_type_panic">SOS Request</string>
+    <string name="alert_type_inactivity">Excessive inactivity</string>
+    <string name="alert_type_speed">Speeding detected</string>
+    <string name="alert_type_geofencing">Left safe zone</string>
+    <string name="alert_type_generic">Security Alert</string>
+
+    <string name="desc_sos_icon">SOS Alert Icon</string>
+    <string name="desc_warning_icon">Danger warning symbol</string>
+    <string name="desc_add_protected">Add new protected user</string>
+    <string name="desc_person_icon">User profile icon</string>
+    <string name="desc_view_alerts">View alert list</string>
+    <string name="desc_manage_rules">Manage security rules</string>
+    <string name="desc_remove_user">Remove this user</string>
+    <string name="desc_play_video">Play incident video</string>
+    <string name="desc_resolve_alert">Mark alert as resolved</string>
+    <string name="desc_camera_preview">Real-time camera preview</string>
+    <string name="desc_back_icon">Go back to previous screen</string>
+
+    <string name="desc_logo">SafetYSec application logo</string>
+    <string name="desc_show_password">Show password</string>
+    <string name="desc_hide_password">Hide password</string>
+    <string name="desc_logout_icon">Sign out</string>
+    <string name="desc_monitor_mode_icon">Monitor mode icon</string>
+    <string name="desc_protected_mode_icon">Protected mode icon</string>
+    <string name="desc_settings_icon">Settings icon</string>
+    <string name="desc_edit_icon">Edit</string>
+    <string name="desc_location_icon">Get current location</string>
+    <string name="desc_map_icon">Open in Google Maps</string>
+    <string name="desc_copy_icon">Copy to clipboard</string>
+    <string name="desc_error_icon">Error icon</string>
+    <string name="desc_close_icon">Close</string>
+    <string name="desc_lang_pt">Switch language to Portuguese</string>
+    <string name="desc_lang_en">Switch language to English</string>
+    <string name="desc_rules_icon">Configure rules</string>
+
+    <string name="mfa_title">Security Verification</string>
+    <string name="mfa_instruction">A code has been sent to the console (Logcat) for email:</string>
+    <string name="mfa_code_label">5-digit code</string>
+    <string name="mfa_validate_btn">Validate</string>
+    <string name="mfa_invalid_code">Invalid Code</string>
+
+    <string name="hint_code_example">Ex: X9J2K1</string>
+    <string name="label_type">Type: %1$s</string>
+    <string name="label_time">Time: %1$s</string>
+
+    <string name="desc_add_icon">Add</string>
+    <string name="desc_video_icon">Play Video</string>
+    <string name="desc_resolve_icon">Resolve Alert</string>
+    <string name="desc_alerts_icon">View Alerts</string>
+    <string name="desc_remove_icon">Remove</string>
+
+    <string name="popup_alert_title">CRITICAL ALERT!</string>
+    <string name="btn_check_alert">Check Details</string>
+    <string name="btn_ignore_alert">Ignore</string>
+    <string name="desc_popup_warning">Critical warning icon</string>
+
+    <string name="error_code_invalid">Invalid code.</string>
+    <string name="error_code_expired">The code has expired (5 min limit).</string>
+    <string name="error_code_data">Data error in the code.</string>
+    <string name="error_self_monitor">You cannot monitor yourself.</string>
+    <string name="error_uid_null">Internal error: Invalid UID.</string>
+    <string name="error_user_not_found_db">User not found in the database.</string>
+    <string name="error_user_not_logged">Session expired.</string>
+
+    <string name="success_association">Association created successfully!</string>
+    <string name="success_association_removed">Association removed.</string>
+    <string name="success_rule_saved">Rule saved.</string>
+    <string name="success_rule_deleted">Rule removed.</string>
+    <string name="success_email_sent">Email sent.</string>
+    <string name="success_updated">Profile updated.</string>
+
+    <string name="config_required_title">Configuration Required</string>
+    <string name="config_required_desc">For alerts to function correctly, your phone requires special permissions.</string>
+    <string name="btn_resolve_permissions">Resolve Permissions</string>
+
+    <string name="toast_enable_overlay">Enable Allow display over other apps</string>
+    <string name="toast_xiaomi_instruction">Xiaomi: Enable Display pop-up windows under Other Permissions</string>
+    <string name="toast_samsung_instruction">Samsung: Set battery usage to Unrestricted</string>
+    <string name="toast_check_settings">Check Permissions and Battery settings.</string>
+    <string name="error_prefix">Error: %1$s</string>
+
+</resources>
